@@ -1,0 +1,23 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.167.0/containers/ubuntu
+{
+	"name": "Ubuntu",
+	"build": {
+		"dockerfile": "Dockerfile",
+	},
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/zsh"
+	},
+
+	"extensions": [
+		"mhutchie.git-graph",
+		"ms-azuretools.vscode-docker",
+		"eamodio.gitlens",
+		"jakebecker.elixir-ls"	
+	],
+
+	// "postCreateCommand": "uname -a",
+
+	"remoteUser": "vscode"
+}

@@ -1,0 +1,10 @@
+devcontainer.env
+
+.fake
+.ionide
+bin/
+obj/
+
+# Paket dependency manager
+.paket
+paket-files
